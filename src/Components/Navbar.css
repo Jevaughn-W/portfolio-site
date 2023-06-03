@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #96ABAD;
+  height: 5em;
+  width: 100%;
+  margin: auto;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5em;
+  width: 2em;
+}
+
+img {
+  height: 2em;
+  width: 2em;
+  padding: 0.5em;
+}
+
+/*# sourceMappingURL=NavBar.css.map */
