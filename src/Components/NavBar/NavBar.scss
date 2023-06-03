@@ -1,24 +1,54 @@
-$background-color : #96ABAD;
+$nav-colour : #96ABAD;
+$font-colour : black;
+$background-colour: #FDF4E3;
+
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: $background-color;
+  background-color: $nav-colour;
   height: 5em;
   width: 100%;
   margin: auto;
+
+  li {
+    display: inline-block;
+    padding: .5em;
+    width: 1.5em;
+  }
+
 }
 
-li{
-  display: inline-block;
-  padding: .5em;
-  width: 2em;
+
+.drop-down-menu{
+  width: 200px;
+  a {
+    text-decoration: none;
+    font-family: "lato";
+    font-weight: 600;
+    color: $font-colour;
+  }  
+
+  a:hover{
+    color: $background-colour;
+  }
+  a:active {
+    color: $background-colour;
+  }
+ 
+  ul {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    width: 4em;
+    text-align: center;
+    padding: 0;
+  }
 }
 
-img{
-  height: 2em;
-  width: 2em;
-  padding: .5em;
-}

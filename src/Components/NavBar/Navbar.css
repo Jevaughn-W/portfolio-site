@@ -8,17 +8,37 @@ nav {
   width: 100%;
   margin: auto;
 }
-
-li {
+nav li {
   display: inline-block;
   padding: 0.5em;
-  width: 2em;
+  width: 1.5em;
 }
 
-img {
-  height: 2em;
-  width: 2em;
-  padding: 0.5em;
+.drop-down-menu {
+  width: 200px;
+}
+.drop-down-menu a {
+  text-decoration: none;
+  font-family: "lato";
+  font-weight: 600;
+  color: black;
+}
+.drop-down-menu a:hover {
+  color: #FDF4E3;
+}
+.drop-down-menu a:active {
+  color: #FDF4E3;
+}
+.drop-down-menu ul {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.drop-down-menu li {
+  width: 4em;
+  text-align: center;
+  padding: 0;
 }
 
 /*# sourceMappingURL=NavBar.css.map */

@@ -7,21 +7,20 @@ const email = <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/
 
 export default function NavBar() {
 
-  const [showMenu, setShowMenu] = useState(false);
-
-  const onClickHandler = () => {
-    setShowMenu((prev) => (prev ? false : true));
-  };
-
   return(
     <nav className="Nav-bar">
-      {/* to add component which shows the menu of about, projects skills stc. */}
-     {!showMenu && <img src="images/hamburgerMenu.png" alt="menu" onClick={onClickHandler}/> }
+      <div className="drop-down-menu">
+        <ul>
+          <li><a href='#about'>About</a></li>
+          <li><a href='#project'>Projects</a></li>
+          <li><a href='#skills'>Skills</a></li>
+        </ul>
+    </div>
       <div className="socials">
         <ul>
-          <li>{linkedin}</li>
-          <li>{github}</li>
-          <li>{email}</li>
+          <li><a href="https://www.linkedin.com/in/jevaughn-williams/" target="_blank">{linkedin}</a></li>
+          <li><a href="https://github.com/Jevaughn-W" target="_blank">{github}</a></li>
+          <li><a href="mailto:jevaughn.williamsx@gmail.com">{email}</a></li>
         </ul>
       </div>
     </nav>

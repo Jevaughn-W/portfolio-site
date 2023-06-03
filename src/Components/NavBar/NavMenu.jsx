@@ -1,14 +1,14 @@
 import React from "react";
+import './NavMenu.css';
 
 
 export default function NavMenu(props) {
   return (
     <div className="drop-down-menu">
-      <ul onClick={props.onClickHander}>
+      <ul>
         <li><a href='#about'>About</a></li>
         <li><a href='#project'>Projects</a></li>
         <li><a href='#skills'>Skills</a></li>
-        <li><a href='#contact'>Contact</a></li>
       </ul>
     </div>
   )
