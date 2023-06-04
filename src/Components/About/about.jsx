@@ -14,7 +14,7 @@ export default function About() {
           <h4>Full-Stack Web Developer</h4>
         </div>
       </div>
-      <h2 class="section-header">About</h2>
+      <h2 className="section-header">About</h2>
       <div className='summary'>
         {aboutSummary}
       </div>
