@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.css';
 
 export default function About() {
   
@@ -13,7 +14,7 @@ export default function About() {
           <h4>Full-Stack Web Developer</h4>
         </div>
       </div>
-      <h2>About</h2>
+      <h2 class="section-header">About</h2>
       <div className='summary'>
         {aboutSummary}
       </div>

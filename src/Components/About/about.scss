@@ -1,0 +1,41 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+  font-family: 'lato';
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    h2 {
+      margin: 0;
+      margin-bottom: .2em;
+      font-style: italic;
+      font-size: 1.5em;
+    }
+    h4 {
+      margin: 0;
+      margin-top: .2em;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 1em;
+    }
+  }
+  img{
+    margin-right: 2em;
+    width: 25%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  div.summary {
+    font-weight: 300;
+    text-align: center;
+  }
+}
