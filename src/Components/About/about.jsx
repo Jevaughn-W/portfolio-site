@@ -8,7 +8,7 @@ export default function About() {
   return(
     <div id="about">
       <div className='header'>
-        <img src="images/JW_DP.png" alt="display picture"/>
+        <img src="images/JW_DP.png" alt="Jevaughn Williams"/>
         <div className='name'>
           <h2>Jevaughn Williams</h2>
           <h4>Full-Stack Web Developer</h4>
