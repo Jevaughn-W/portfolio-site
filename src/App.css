@@ -4,4 +4,10 @@ body {
   height: auto;
 }
 
+h2.section-header {
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
 /*# sourceMappingURL=App.css.map */
