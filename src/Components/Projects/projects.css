@@ -1,0 +1,20 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+}
+.card-details .project-description {
+  flex-grow: 2;
+}
+.card-details span {
+  flex-grow: 1;
+  margin: 0.2em;
+}
+
+/*# sourceMappingURL=projects.css.map */
