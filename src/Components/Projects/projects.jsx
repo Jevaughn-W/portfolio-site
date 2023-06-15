@@ -32,7 +32,7 @@ const projectList = projects.map((project, index)=> {
     <section key={index} className="project-card">
       <h4 className="title"><a href={project.github} target="_blank" rel="noopener noreferrer">{project.name}</a></h4>
       <div className="card-details">
-        <img src={project.image} alt="HabTrack" height="50px" width="50px"/>
+        <img src={project.image} alt="HabTrack"/>
         <div className="project-description">
           <p><strong>Description:</strong> {project.description}</p>
           <p><strong>Tech Stack:</strong>{project.technologies}</p>
