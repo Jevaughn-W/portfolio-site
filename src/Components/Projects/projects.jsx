@@ -1,4 +1,6 @@
 import React from "react";
+import './projects.css';
+
 
 // Project description as an array of object
 const projects = [
@@ -25,7 +27,7 @@ const projects = [
 const projectList = projects.map((project, index)=> {
   return(
     <section key={index} className="project-card">
-      <h4 className="title"><a herf={project.github}>{project.name}</a></h4>
+      <h4 className="title"><a href={project.github} target="_blank" rel="noopener noreferrer">{project.name}</a></h4>
       <div className="card-details">
         <h2>placeholder</h2>
         <div className="project-description">
