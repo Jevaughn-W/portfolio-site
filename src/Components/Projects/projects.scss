@@ -1,4 +1,6 @@
-
+$nav-colour : #96ABAD;
+$font-colour : black;
+$background-colour: #FDF4E3;
 
 #projects {
   display: flex;
@@ -10,11 +12,38 @@
 .card-details {
   display: flex;
   flex-direction: row;
+
   .project-description {
     flex-grow: 2;
   }
-  span {
-    flex-grow: 1;
-    margin: .2em;
+
+  img {
+    border: 1px solid;
+    margin-right: 1em;
+    height: 4em;
+    width: 4em;
+    object-fit: cover;
   }
+
+  p {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+}
+
+h4.title {
+  margin: 0;
+  margin-bottom: 1em;
+  background-color: $nav-colour;
+  text-align: center;
+}
+
+a {
+  color: $font-colour;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $background-colour;
 }
