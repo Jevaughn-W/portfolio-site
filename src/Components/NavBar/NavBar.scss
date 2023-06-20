@@ -1,54 +1,33 @@
-$nav-colour : #96ABAD;
-$font-colour : black;
-$background-colour: #FDF4E3;
+$font-colour : #444444;
+$hover-colour : #A45C40;
 
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: $nav-colour;
-  height: 5em;
-  width: 100%;
-  margin: auto;
+.Nav-bar {
+  position: fixed;
+  top: 1em;
 
-  li {
-    display: inline-block;
-    padding: .5em;
-    width: 1.5em;
-  }
-
-}
-
-
-.drop-down-menu{
-  width: 200px;
-  a {
-    text-decoration: none;
-    font-family: "lato";
-    font-weight: 600;
-    color: $font-colour;
-  }  
-
-  a:hover{
-    color: $background-colour;
-  }
-  a:active {
-    color: $background-colour;
-  }
- 
   ul {
-    width: 100%;
-    display: inline-block;
     margin: 0;
-    padding: 0;
+
   }
 
   li {
-    width: 4em;
-    text-align: center;
-    padding: 0;
+    display: inline-block;
+    padding-right: 1em;
+    font-size: 32px;
+    color: $font-colour;
   }
+
+  a {
+    color: $font-colour;
+  }
+
+  a:hover {
+    color: $hover-colour;
+  }
+
 }
+
+
+
 
