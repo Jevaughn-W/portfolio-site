@@ -1,6 +1,15 @@
 $font-colour : #444444;
 $hover-colour : #A45C40;
 
+// Need to import the font family downloaded from google
+
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('../../assets/fonts/PermanentMarker-Regular.ttf');
+  font-weight: normal;
+  font-size: normal;
+}
+
 
 .Nav-bar {
   width: 100%;
@@ -19,6 +28,7 @@ $hover-colour : #A45C40;
     padding-right: 1em;
     font-size: 32px;
     color: $font-colour;
+    font-family: 'Permanent Marker';
   }
 
   a {

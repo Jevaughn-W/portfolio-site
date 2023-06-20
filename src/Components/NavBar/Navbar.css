@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../../assets/fonts/PermanentMarker-Regular.ttf");
+  font-weight: normal;
+  font-size: normal;
+}
 .Nav-bar {
   width: 100%;
   position: fixed;
@@ -13,6 +19,7 @@
   padding-right: 1em;
   font-size: 32px;
   color: #444444;
+  font-family: "Permanent Marker";
 }
 .Nav-bar a {
   color: #444444;
