@@ -1,7 +1,7 @@
 @import '../../_variables.scss';
 
 
-#landing-page{
+#landing-page{ // Allows the image to fill the entire screen without repeating or any other isses
   background: url('./landing-background.jpg') no-repeat center center fixed ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,5 +25,16 @@
   }
 
   text-align: center;
+
+  .down-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      opacity: 70%; // Colour doesn't work therefore reduced the opacity for a close match
+    }
+  }
 
 }

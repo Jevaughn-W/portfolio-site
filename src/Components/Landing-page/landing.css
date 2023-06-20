@@ -26,5 +26,14 @@
   font-size: 32px;
   font-family: "Permanent Marker";
 }
+#landing-page .down-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#landing-page .down-arrow img {
+  opacity: 70%;
+}
 
 /*# sourceMappingURL=landing.css.map */
