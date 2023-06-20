@@ -3,8 +3,11 @@ $hover-colour : #A45C40;
 
 
 .Nav-bar {
+  width: 100%;
   position: fixed;
   top: 1em;
+  display: flex;
+  justify-content: end;
 
   ul {
     margin: 0;

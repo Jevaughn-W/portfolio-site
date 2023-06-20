@@ -1,6 +1,9 @@
 .Nav-bar {
+  width: 100%;
   position: fixed;
   top: 1em;
+  display: flex;
+  justify-content: end;
 }
 .Nav-bar ul {
   margin: 0;
