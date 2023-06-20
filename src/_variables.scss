@@ -1,0 +1,12 @@
+$font-colour: #444444;
+$hover-colour : #A45C40;
+
+// Need to import the font family downloaded from google
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('../../assets/fonts/PermanentMarker-Regular.ttf');
+  font-weight: normal;
+  font-size: normal;
+}
+
+$permanent-marker : 'Permanent Marker';
