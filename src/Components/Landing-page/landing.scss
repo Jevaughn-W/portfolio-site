@@ -7,15 +7,17 @@ $font-colour: #444444;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   
-  h2, h3 {
+  h2 {
     margin: 0;
-    color: $font-colour;
+    padding-top:3em;
     font-size: 60px;
+    color: $font-colour;
   }
 
   h3 {
+    color: $font-colour;
     margin-top: 1em;
     font-size: 32px;
   }
