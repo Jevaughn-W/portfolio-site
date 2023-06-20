@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../../assets/fonts/PermanentMarker-Regular.ttf");
+  font-weight: normal;
+  font-size: normal;
+}
 #about {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: auto;
   margin-top: 3em;
-  font-family: "lato";
+  font-family: "Lato";
 }
 #about .header {
   display: flex;
