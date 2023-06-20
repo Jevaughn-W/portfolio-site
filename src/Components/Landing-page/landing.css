@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../../assets/fonts/PermanentMarker-Regular.ttf");
+  font-weight: normal;
+  font-size: normal;
+}
 #landing-page {
   background: url("./landing-background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
