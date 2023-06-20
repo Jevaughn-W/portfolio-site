@@ -3,21 +3,19 @@ import './about.css';
 
 export default function About() {
   
-  const aboutSummary = `Recent graduate from the Lighthouse Labs Flex-Web development Program with a consulting background in mergers and acquisition.`;
+  const aboutSummary = `I am a Full-Stack Web Developer recently graduated from the Lighthouse Labs Web Development bootcamp. I enjoy building web apps that solves real world problems and crave opportunities to continue growing as a web developer.
+
+  Prior to diving into the world of web development, I completed a Bsc. in Actuarial Science and worked as a consultant in PwC’s Value Creation practice. During my years as a consultant I have worked on numerous transactions where I have honed my ability to work on high pressure, time sensitive projects as well as developed strong communication skills.`;
 
   return(
     <div id="about">
       <div className='header'>
-        <img src="images/JW_DP.png" alt="Jevaughn Williams"/>
-        <div className='name'>
-          <h2>Jevaughn Williams</h2>
-          <h4>Full-Stack Web Developer</h4>
-        </div>
+       <h2>Hi I'm Jevaughn, Welcome</h2>
       </div>
-      <h2 className="section-header">About</h2>
-      <div className='summary'>
-        {aboutSummary}
-      </div>
+      <article className='summary'>
+        <img src="images/portfolio-img-placeholder.jpeg"/>
+        <p>{aboutSummary}</p>
+      </article>
     </div>
   )
 }
