@@ -7,8 +7,8 @@ import Landing from './Components/Landing-page/landing';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
       <Landing/>
+      <NavBar/>
       <About/>
       <Projects/>
     </div>
