@@ -31,9 +31,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 300px;
 }
 #landing-page .down-arrow img {
   opacity: 70%;
+}
+@keyframes upAndDownAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#landing-page .down-arrow .animated-image {
+  animation: upAndDownAnimation 2s infinite;
 }
 
 /*# sourceMappingURL=landing.css.map */
