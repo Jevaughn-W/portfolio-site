@@ -10,6 +10,7 @@ $hover-colour : #A45C40;
   font-size: normal;
 }
 
+$permanent-marker : 'Permanent Marker';
 
 .Nav-bar {
   width: 100%;
@@ -28,7 +29,7 @@ $hover-colour : #A45C40;
     padding-right: 1em;
     font-size: 32px;
     color: $font-colour;
-    font-family: 'Permanent Marker';
+    font-family: $permanent-marker;
   }
 
   a {
