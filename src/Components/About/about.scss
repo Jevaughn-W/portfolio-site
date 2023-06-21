@@ -3,40 +3,42 @@
 #about {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-top: 3em;
-  font-family: $description-font;
 
-  .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    h2 {
-      margin: 0;
-      margin-bottom: .2em;
-      font-size: 1.5em;
-    }
-    h4 {
-      margin: 0;
-      margin-top: .2em;
-      font-weight: 300;
-      font-size: 1em;
-      text-align: center;
+  .summary{
+    background-color: $card-color;
+    border: .3px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.5);
+    height: 420px;
+
+    .about-container {
+      margin: 2em;
+      display: flex;
     }
   }
-  img{
-    margin-right: 2em;
-    width: 25%;
-    object-fit: cover;
-    border: 1px solid black;
-    border-radius: 50%;
+
+  h2 {
+    font-family: $permanent-marker;
+    font-size: 60px;
+    color: $font-colour;
   }
   
-  div.summary {
-    font-weight: 300;
+
+  img{
+    width:350px;
+    height: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 2em;
+  }
+
+  p {
+    width: 70%;
+    font-size: 22px;
+    line-height: 1.5em;
     text-align: center;
   }
 }

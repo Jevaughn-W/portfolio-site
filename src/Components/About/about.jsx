@@ -13,8 +13,10 @@ export default function About() {
        <h2>Hi I'm Jevaughn, Welcome</h2>
       </div>
       <article className='summary'>
-        <img src="images/portfolio-img-placeholder.jpeg"/>
-        <p>{aboutSummary}</p>
+        <div className='about-container'>
+          <img src="images/portfolio-img-placeholder.jpeg"/>
+          <p>{aboutSummary}</p>
+        </div>
       </article>
     </div>
   )
