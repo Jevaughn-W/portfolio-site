@@ -12,7 +12,7 @@ export default function NavBar() {
           <li>|</li>
           <li><a href='#skills'>Skills</a></li>
           <li>|</li>
-          <li><a href='#project'>Projects</a></li>
+          <li><a href='#projects'>Projects</a></li>
           <li>|</li>
           <li><a href='#contact'>Contact</a></li>
         </ul>
