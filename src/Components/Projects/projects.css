@@ -1,43 +1,31 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../../assets/fonts/PermanentMarker-Regular.ttf");
+  font-weight: normal;
+  font-size: normal;
+}
 #projects {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  height: 100vh;
   margin: auto;
 }
 
 .card-details {
-  display: flex;
-  flex-direction: row;
-}
-.card-details .project-description {
-  flex-grow: 2;
-}
-.card-details img {
-  border: 1px solid;
-  margin-right: 1em;
-  height: 4em;
-  width: 4em;
-  object-fit: cover;
-}
-.card-details p {
-  margin: 0;
-  margin-bottom: 1em;
+  height: 584px;
+  width: 350px;
+  background-color: #F6EEE0;
 }
 
-h4.title {
-  margin: 0;
-  margin-bottom: 1em;
-  background-color: #96ABAD;
-  text-align: center;
+.image-container {
+  height: 50%;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #FDF4E3;
+.project-description {
+  background-color: #fff;
+  height: 50%;
 }
 
 /*# sourceMappingURL=projects.css.map */

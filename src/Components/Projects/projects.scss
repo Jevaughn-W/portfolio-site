@@ -1,49 +1,24 @@
-$nav-colour : #96ABAD;
-$font-colour : black;
-$background-colour: #FDF4E3;
+@import '../../variables';
 
 #projects {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  height: 100vh;
   margin: auto;
 }
 
 .card-details {
-  display: flex;
-  flex-direction: row;
-
-  .project-description {
-    flex-grow: 2;
-  }
-
-  img {
-    border: 1px solid;
-    margin-right: 1em;
-    height: 4em;
-    width: 4em;
-    object-fit: cover;
-  }
-
-  p {
-    margin: 0;
-    margin-bottom: 1em;
-  }
-
+  height: 584px;
+  width: 350px;
+  background-color: $card-color;
+}
+.image-container {
+  height: 50%;
 }
 
-h4.title {
-  margin: 0;
-  margin-bottom: 1em;
-  background-color: $nav-colour;
-  text-align: center;
-}
-
-a {
-  color: $font-colour;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $background-colour;
+.project-description {
+  background-color: #fff;
+  height: 50%;
 }
