@@ -30,12 +30,13 @@ const projects = [
 const projectList = projects.map((project, index)=> {
   return(
     <section key={index} className="project-card">
-      <h4 className="title"><a href={project.github} target="_blank" rel="noopener noreferrer">{project.name}</a></h4>
       <div className="card-details">
-        <img src={project.image} alt="HabTrack"/>
+        {/* <img src={project.image} alt="HabTrack"/> */}
         <div className="project-description">
-          <p><strong>Description:</strong> {project.description}</p>
-          <p><strong>Tech Stack:</strong>{project.technologies}</p>
+          <h4 className="title"><a href={project.github} target="_blank" rel="noopener noreferrer">{project.name}</a></h4>
+          <p>{project.description}</p>
+          <p>Tech Stack</p>
+          <p>{project.technologies}</p>
         </div>
       </div>
     </section>
@@ -47,7 +48,6 @@ console.log(projectList)
 export default function Projects() {
   return (
     <div id="projects">
-      <h2 className="section-header">Projects</h2>
       {projectList}
     </div>
   )
