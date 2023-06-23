@@ -13,8 +13,8 @@ const projects = [
   },
   {
     name: "Lighthouse-labs Scheduler",
-    description: "The app allows an user to create, edit and delete interviews based on 25 available slots, Monday through Friday. The app also includes features which notify users of errors such as a failed API requests or missing inputs when creating or changing an interview.",
-    technologies: "React, HTML, Javascript, CSS, ostgreSQL, Express, Nodejs, Axios, Jest & Cypress",
+    description: "The app allows an user to create, edit and delete interviews based on 25 available slots, Monday through Friday.",
+    technologies: "One",
     github: "https://github.com/Jevaughn-W/lighthouse-labs-scheduler",
     image: "https://github.com/Jevaughn-W/lighthouse-labs-scheduler/blob/master/docs/Screen%20Shot%202023-01-16%20at%207.07.40%20AM.png?raw=true"
   },
@@ -32,7 +32,7 @@ const projectList = projects.map((project, index)=> {
     <section key={index} className="project-card">
       <div className="card-details">
         <div className="image-container">
-          {/* <img src={project.image} alt="HabTrack"/> */}
+          <img src={project.image} alt={project.name}/>
         </div>
         <div className="project-description">
           <h4 className="title"><a href={project.github} target="_blank" rel="noopener noreferrer">{project.name}</a></h4>
