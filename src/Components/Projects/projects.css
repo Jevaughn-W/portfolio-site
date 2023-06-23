@@ -26,6 +26,22 @@
 .project-description {
   background-color: #fff;
   height: 50%;
+  padding: 1em;
+}
+.project-description h4 {
+  margin: 0;
+  text-align: center;
+}
+.project-description a, .project-description .stack {
+  font-family: "Permanent Marker";
+  text-decoration: none;
+  color: #444444;
+  font-size: 22px;
+}
+.project-description p {
+  font-family: "Lato";
+  line-height: 1.5em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=projects.css.map */

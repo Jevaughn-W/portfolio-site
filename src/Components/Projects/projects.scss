@@ -21,4 +21,23 @@
 .project-description {
   background-color: #fff;
   height: 50%;
+  padding: 1em;
+
+  h4 {
+    margin: 0;
+    text-align: center;
+  }
+
+  a, .stack {
+    font-family: $permanent-marker;
+    text-decoration: none;
+    color: $font-colour;
+    font-size: 22px;
+  }
+
+  p {
+    font-family: $description-font;
+    line-height: 1.5em;
+    text-align: center;
+  }
 }
