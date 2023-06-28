@@ -11,11 +11,11 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  padding-top: 10em;
   text-align: center;
 }
 #landing-page h2 {
   margin: 0;
-  padding-top: 3em;
   font-size: 60px;
   color: #444444;
   font-family: "Permanent Marker";

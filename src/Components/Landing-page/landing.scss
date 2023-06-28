@@ -8,10 +8,10 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  padding-top: 10em; // Using padding because I want the Landing page image to be included - for the other I can use margin top
   
   h2 {
     margin: 0;
-    padding-top:3em;
     font-size: 60px;
     color: $font-colour;
     font-family: $permanent-marker;
