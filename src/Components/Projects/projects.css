@@ -43,7 +43,7 @@
   margin: 0;
   text-align: center;
 }
-.project-description a, .project-description .stack {
+.project-description h4, .project-description .stack {
   font-family: "Permanent Marker";
   text-decoration: none;
   color: #444444;
