@@ -9,7 +9,7 @@
   position: fixed;
   top: 1em;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .Nav-bar ul {
   margin: 0;
