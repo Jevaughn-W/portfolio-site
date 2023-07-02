@@ -6,7 +6,7 @@
   width: 90%;
   height: 100vh;
   margin: auto;
-  margin-top: 3em;
+  padding-top: 3em; // Padding is used instead of margin because the links jump directly at the element and ignores the margin. Therefore the element starts earlier but there is still a gap for the nav
 
   .summary{
     background-color: $card-color;

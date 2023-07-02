@@ -10,7 +10,7 @@
   width: 90%;
   height: 100vh;
   margin: auto;
-  margin-top: 3em;
+  padding-top: 3em;
 }
 #about .summary {
   background-color: #F6EEE0;
