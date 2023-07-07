@@ -14,7 +14,7 @@ const projects = [
   {
     name: "Lighthouse-labs Scheduler",
     description: "The app allows an user to create, edit and delete interviews based on 25 available slots, Monday through Friday.",
-    technologies: "One",
+    technologies: "React, HTML, CSS, Javascript,PostgreSQL, Express, Nodejs, Axios",
     github: "https://github.com/Jevaughn-W/lighthouse-labs-scheduler",
     image: "https://github.com/Jevaughn-W/lighthouse-labs-scheduler/blob/master/docs/Screen%20Shot%202023-01-16%20at%207.07.40%20AM.png?raw=true"
   },
